@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/WeChat_Sell?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
+  jpa:
+    show-sql: true
+  devtools:
+    restart:
+      enabled: true
+server:
+  port: 6060
+  servlet:
+    context-path: /sell
